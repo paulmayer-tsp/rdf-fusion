@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/rdf-fusion/static/css/main.5969d45b.chunk.css",
+    "main.js": "/rdf-fusion/static/js/main.294e7a4c.chunk.js",
+    "main.js.map": "/rdf-fusion/static/js/main.294e7a4c.chunk.js.map",
+    "runtime-main.js": "/rdf-fusion/static/js/runtime-main.5d357ce8.js",
+    "runtime-main.js.map": "/rdf-fusion/static/js/runtime-main.5d357ce8.js.map",
+    "static/js/2.00cf6e55.chunk.js": "/rdf-fusion/static/js/2.00cf6e55.chunk.js",
+    "static/js/2.00cf6e55.chunk.js.map": "/rdf-fusion/static/js/2.00cf6e55.chunk.js.map",
+    "index.html": "/rdf-fusion/index.html",
+    "precache-manifest.62b35b3f70ad00b7393e51e0d48aa880.js": "/rdf-fusion/precache-manifest.62b35b3f70ad00b7393e51e0d48aa880.js",
+    "service-worker.js": "/rdf-fusion/service-worker.js",
+    "static/css/main.5969d45b.chunk.css.map": "/rdf-fusion/static/css/main.5969d45b.chunk.css.map",
+    "static/js/2.00cf6e55.chunk.js.LICENSE.txt": "/rdf-fusion/static/js/2.00cf6e55.chunk.js.LICENSE.txt",
+    "static/media/fraudbuster_logo.svg": "/rdf-fusion/static/media/fraudbuster_logo.26170150.svg",
+    "static/media/icon_category.svg": "/rdf-fusion/static/media/icon_category.48316ef4.svg",
+    "static/media/icon_eye.svg": "/rdf-fusion/static/media/icon_eye.cb441765.svg",
+    "static/media/icon_key.svg": "/rdf-fusion/static/media/icon_key.c616cb6f.svg",
+    "static/media/icon_leaf.svg": "/rdf-fusion/static/media/icon_leaf.11526d75.svg",
+    "static/media/icon_lock.svg": "/rdf-fusion/static/media/icon_lock.0e3ddf7c.svg",
+    "static/media/icon_message.svg": "/rdf-fusion/static/media/icon_message.f93544c0.svg",
+    "static/media/icon_person.svg": "/rdf-fusion/static/media/icon_person.fdc4a338.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d357ce8.js",
+    "static/js/2.00cf6e55.chunk.js",
+    "static/css/main.5969d45b.chunk.css",
+    "static/js/main.294e7a4c.chunk.js"
+  ]
+}
