@@ -1,0 +1,20 @@
+html, body, #root, .App {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+    background: #f0f4fc;
+    min-height: 100%;
+    width: 100%;
+}
+
+.snackbar_error {
+    background-color: rgba(255, 0, 0, 0.75) !important;
+}
+
+.snackbar_success {
+    background-color: rgba(0, 128, 0, 0.75) !important;
+}
+
+.snackbar_warning {
+    background-color: rgba(255, 232, 45, 0.84) !important;
+}

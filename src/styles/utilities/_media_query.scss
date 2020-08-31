@@ -1,0 +1,50 @@
+/*breakpoints and mixin for whole application */
+
+$media-lg: 1200px;
+$media-mid: 740px;
+$media-sm: 600px;
+$media_orientation_landscape: landscape;
+$media_orientation_portrait: portrait;
+
+/* Add to your grid or other partial */
+
+// Media and above
+@mixin media_above($media) {
+  @media only screen and (min-width: $media) {
+    @content;
+  }
+}
+
+// Media and below
+@mixin media_below($media) {
+  @media only screen and (max-width: $media) {
+    @content;
+  }
+}
+
+// Between media_min and media_max
+@mixin media_between($media_min, $media_max) {
+  @media only screen and (min-width: $media_min) and (max-width: $media_max) {
+    @content;
+  }
+}
+
+// Between media_min and media_max
+@mixin media_orientation($media_orientation) {
+  @media only screen and (orientation: $media_orientation) {
+    @content;
+  }
+}
+
+@mixin media_below_hidden($media-sm) {
+  @include media_below($media-sm) {
+    display: none;
+  }
+}
+
+@mixin media_below_shown($media-sm) {
+  display: none;
+  @include media_below($media-sm) {
+    display: unset;
+  }
+}

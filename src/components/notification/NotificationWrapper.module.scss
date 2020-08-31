@@ -1,0 +1,14 @@
+// @import "styles/_variables.scss";
+
+.snackbar {
+  //width: 100%;
+  //height: 100%;
+}
+
+.message {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  align-items: center;
+  justify-content: flex-start;
+}

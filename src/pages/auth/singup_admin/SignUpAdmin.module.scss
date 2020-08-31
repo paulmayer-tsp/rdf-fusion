@@ -1,0 +1,83 @@
+@import "styles/_variables.scss";
+
+.grid_system{
+    display:grid;
+    grid-auto-flow:row;
+    grid-auto-rows:max-content;
+    align-items:center;
+    justify-items:flex-start;
+    //justify-content:flex-start;
+}
+
+.container{
+    width:100%;
+    margin-top:32px;
+    height:100%;
+    background:#191f29;
+}
+
+.content{
+    width:100%;
+    margin:0px auto;
+    grid-row-gap:16px;
+    justify-content:unset;
+}
+
+.adornRight{
+    margin-right:16px;
+}
+
+.adornLeft{
+    margin-left:16px;
+}
+
+.title{
+    color: #f0f4fc;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.sub_title{
+    color: $text_light;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:24px;
+}
+
+.label{
+    margin-top:24px;
+}
+
+.actions{
+    margin:24px 0px;
+    width:100%;
+    display:grid;
+    align-items:center;
+    justify-content:space-between;
+    grid-auto-flow:column;
+
+}
+
+.link{
+    color:$text_light;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.btn_register{
+    width: 126px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: shade(#4a89c8, 60%);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border:unset;
+    justify-self:flex-end;
+}
+
+.link_signup{
+    color:$color_secondary;
+}

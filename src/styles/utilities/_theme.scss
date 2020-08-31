@@ -1,0 +1,42 @@
+
+$page_width: 70% !default;
+$blue_color: #1473e6;
+$blue_black: #174662;
+$white: #fff;
+$orange: #fbb03b;
+$text_color: #b2bdd0;
+$default_background: #f0f4fc;
+$text_light: #b2bdd0;
+
+$color_primary: $blue_color;
+$color_primary_light: tint($color_primary, 10%);
+$color_primary_dark: shade($color_primary, 10%);
+
+$color_secondary: $orange;
+$color_secondary_light: tint($color_secondary, 10%);
+$color_secondary_dark: shade($color_secondary, 10%);
+
+//theming for modals
+$modal_action_positive_color: rgba(0, 128, 0, 0.829);
+$modal_action_negative_color: rgba(255, 0, 0, 0.801);
+$modal_action_positive_background: rgba(0, 128, 0, 0.37);
+$modal_action_negative_background: rgba(255, 0, 0, 0.356);
+
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}

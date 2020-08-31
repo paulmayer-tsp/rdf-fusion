@@ -1,0 +1,42 @@
+@import "styles/_variables.scss";
+
+.container > div {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 0;
+  outline: none;
+  background: tint($default_background, 50%);
+  width: 100%;
+  max-width: 100%;
+  &:focus, &:active, &:hover {
+    border-width: 1px !important;
+  }
+  & > fieldset {
+    border-width: 0px !important;
+  }
+}
+
+.textfield_input {
+  padding: 12.5px 14px !important;
+}
+
+.textfield_root {
+  padding: unset !important;
+  //padding: 10px 10px !important;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: max-content;
+  grid-row-gap: 4px;
+  justify-items: flex-start;
+  align-items: flex-start;
+}
+
+.label {
+  color: $text_light;
+  font-size: 16px;
+  font-weight: 400;
+}
