@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebf398410585549499a054b51e74e4f7",
+    "revision": "32a0547f2a4de5683a9c5dcafa4fc661",
     "url": "/rdf-fusion/index.html"
   },
   {
-    "revision": "6b19caa1b738abc0cc35",
+    "revision": "eba7cec4f65c81d3349c",
     "url": "/rdf-fusion/static/css/main.5969d45b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rdf-fusion/static/js/2.00cf6e55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b19caa1b738abc0cc35",
-    "url": "/rdf-fusion/static/js/main.294e7a4c.chunk.js"
+    "revision": "eba7cec4f65c81d3349c",
+    "url": "/rdf-fusion/static/js/main.445c79a0.chunk.js"
   },
   {
     "revision": "207873385e1804426bb7",

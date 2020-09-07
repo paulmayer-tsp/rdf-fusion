@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rdf-fusion/static/css/main.5969d45b.chunk.css",
-    "main.js": "/rdf-fusion/static/js/main.294e7a4c.chunk.js",
-    "main.js.map": "/rdf-fusion/static/js/main.294e7a4c.chunk.js.map",
+    "main.js": "/rdf-fusion/static/js/main.445c79a0.chunk.js",
+    "main.js.map": "/rdf-fusion/static/js/main.445c79a0.chunk.js.map",
     "runtime-main.js": "/rdf-fusion/static/js/runtime-main.5d357ce8.js",
     "runtime-main.js.map": "/rdf-fusion/static/js/runtime-main.5d357ce8.js.map",
     "static/js/2.00cf6e55.chunk.js": "/rdf-fusion/static/js/2.00cf6e55.chunk.js",
     "static/js/2.00cf6e55.chunk.js.map": "/rdf-fusion/static/js/2.00cf6e55.chunk.js.map",
     "index.html": "/rdf-fusion/index.html",
-    "precache-manifest.62b35b3f70ad00b7393e51e0d48aa880.js": "/rdf-fusion/precache-manifest.62b35b3f70ad00b7393e51e0d48aa880.js",
+    "precache-manifest.8c5e359faf5a4b15fd072fead0c5bb02.js": "/rdf-fusion/precache-manifest.8c5e359faf5a4b15fd072fead0c5bb02.js",
     "service-worker.js": "/rdf-fusion/service-worker.js",
     "static/css/main.5969d45b.chunk.css.map": "/rdf-fusion/static/css/main.5969d45b.chunk.css.map",
     "static/js/2.00cf6e55.chunk.js.LICENSE.txt": "/rdf-fusion/static/js/2.00cf6e55.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.5d357ce8.js",
     "static/js/2.00cf6e55.chunk.js",
     "static/css/main.5969d45b.chunk.css",
-    "static/js/main.294e7a4c.chunk.js"
+    "static/js/main.445c79a0.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rdf-fusion/precache-manifest.62b35b3f70ad00b7393e51e0d48aa880.js"
+  "/rdf-fusion/precache-manifest.8c5e359faf5a4b15fd072fead0c5bb02.js"
 );
 
 self.addEventListener('message', (event) => {
