@@ -149,10 +149,10 @@ const HomePageComponent: React.FC<HomePageProps & RouteComponentProps> = (props)
                         styles.grid_width_full,
                     )}
                 >
-                    <span>Inset your query below or select a txt file containing the query</span>
+                    <span>Insert your query below or select a txt file containing the query</span>
                     <BorderlessTextField
                         multiline={true}
-                        // label={`Inset your query below or select a txt file containing the query`}
+                        // label={`Insert your query below or select a txt file containing the query`}
                         rows={5}
                         onChange={e => setQuery(e.target.value)}
                         value={query}

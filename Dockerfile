@@ -19,7 +19,7 @@ RUN npm rebuild node-sass
 
 EXPOSE 3000
 
-CMD npm start 
+RUN npm run deploy
 
 # FROM node:lts-alpine
 
